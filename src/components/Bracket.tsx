@@ -61,7 +61,7 @@ const toBracketGames = ({ GameComponent, game, x, y, gameDimensions, roundSepara
           ];
 
           return [
-            <path key={`${game.id}-${side}-${y}-path`} d={pathInfo.join(' ')} fill="transparent" stroke="black"/>
+            <path key={`${game.id}-${side}-${y}-path`} d={pathInfo.join(' ')} fill="transparent" stroke="white"/>
           ]
             .concat(
               toBracketGames(
